@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Mar 30, 2023 at 06:07 PM
+-- Generation Time: Aug 09, 2023 at 10:09 PM
 -- Server version: 10.4.27-MariaDB
--- PHP Version: 8.2.0
+-- PHP Version: 8.0.25
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -41,7 +41,7 @@ CREATE TABLE `administrasi` (
 --
 
 INSERT INTO `administrasi` (`id_administrasi`, `id_identitas_siswa`, `harga`, `status`, `tgl_buat`, `tgl_ubah`) VALUES
-(5, 1, 1250000, 'Lunas', '2020-09-17 09:48:12', '2020-09-17 08:22:50');
+(5, 1, 1250000, 'Belum Lunas', '2020-09-17 09:48:12', '2023-07-17 16:57:23');
 
 --
 -- Triggers `administrasi`
@@ -106,9 +106,9 @@ CREATE TABLE `identitas_siswa` (
 --
 
 INSERT INTO `identitas_siswa` (`Id_Identitas_Siswa`, `NIK`, `No_kk`, `Nama_Panggilan`, `Nama_Peserta_Didik`, `Tempat_Lahir`, `Tanggal_Lahir`, `Jenis_Kelamin`, `Agama`, `Gol_Darah`, `Tinggi_Badan`, `Berat_Badan`, `Suku`, `Bahasa`, `Kewarganegaraan`, `Status_Anak`, `Anak_Ke`, `Jml_Saudara`, `Jenis_Tinggal`, `Alamat_Tinggal`, `Provinsi_Tinggal`, `Kab_Kota_Tinggal`, `Kec_Tinggal`, `Kelurahan_Tinggal`, `Kode_POS`, `Jarak_Ke_Sekolah`, `Riwayat_Penyakit`, `status_ortu`, `status_administrasi`, `tgl_buat`, `tgl_ubah`) VALUES
-(1, '0001999901666444', '0001999901666444', 'Agung', 'Agung Dermawan', 'Jember', '2014-11-14', 'Laki-Laki', 'Islam', 'A', '108', '28', 'Jawa', 'Indonesia', 'Indonesia', 'Jawa', 2, 3, 'Kontrak', 'Jl. Dr. Soebandi Gg. Kenitu', 'Jawa Timur', 'Jember', 'Wuluhan', 'Wuluhan', '68119', '1', 'Tidak Ada', 1, 1, '0000-00-00 00:00:00', '2020-09-17 07:48:12'),
+(1, '0001999901666444', '2222222222222222', 'Agung', 'Agung Dermawan', 'Jember', '2014-11-14', 'Laki-Laki', 'Islam', 'A', '108', '28', 'Jawa', 'Indonesia', 'Indonesia', 'Jawa', 2, 3, 'Kontrak', 'Jl. Dr. Soebandi Gg. Kenitu', 'Jawa Timur', 'Jember', 'Wuluhan', 'Wuluhan', '68119', '1', 'Tidak Ada', 1, 1, '0000-00-00 00:00:00', '2023-04-04 13:00:33'),
 (3, '9071230127301273', '1237102370127309', 'Jonatan', 'Jonatan Zilguin', 'Jember', '2013-08-26', 'Laki-Laki', 'Islam', 'B', '120', '30', 'Jawa', 'Indonesia', 'Indonesia', 'Jawa', 2, 5, 'Kontrak', 'Jember Lor 2', 'Jawa Timur', 'Jember', 'Wuluhan', 'Wuluhan', '68118', '2', 'Tidak Ada', 1, 0, '0000-00-00 00:00:00', '2020-09-18 08:16:05'),
-(4, '9012730126301273', '9263017230127390', 'Iskandar', 'Iskandar Muda', 'Jember', '2011-09-08', 'Laki-Laki', 'Islam', 'B', '120', '30', 'Jawa', 'Indonesia', 'Indonesia', 'Jawa', 2, 3, 'Kontrak', 'Jember', 'Jawa Timur', 'Jember', 'Wuluhan', 'Wuluhan', '68115', '1', 'Tidak Ada', 0, 0, '2020-09-18 10:53:33', '2020-09-18 08:53:33');
+(4, '9012730126301273', '5555555555555555', 'Iskandar', 'Iskandar Muda', 'Jember', '2011-09-08', 'Laki-Laki', 'Islam', 'B', '120', '30', 'Jawa', 'Indonesia', 'Indonesia', 'Jawa', 2, 3, 'Kontrak', 'Jember', 'Jawa Timur', 'Jember', 'Wuluhan', 'Wuluhan', '68115', '1', 'Tidak Ada', 0, 0, '2020-09-18 10:53:33', '2023-07-17 11:56:22');
 
 -- --------------------------------------------------------
 
@@ -195,8 +195,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `nama`, `username`, `password`, `hak`, `status`, `tgl_buat`, `tgl_ubah`) VALUES
-(1, 'Andi Santosoku', 'andisantoso', 'andisantoso', 'pegawai', 'aktif', '2020-09-16 19:09:20', '2020-09-16 17:20:12'),
-(6, 'Tiara Ekylia Eriza Putri', 'tiaraekylia', 'tiaraekylia', 'admin', 'aktif', '2020-09-16 18:32:57', '2020-09-17 14:14:28');
+(1, 'Ken Aroki', 'kenAroki', 'kentucky', 'pegawai', 'aktif', '2020-09-16 19:09:20', '2023-08-09 20:09:07'),
+(6, 'Admin Leader', 'adminLeader', 'admin123456', 'admin', 'aktif', '2020-09-16 18:32:57', '2023-08-09 20:04:57');
 
 --
 -- Indexes for dumped tables
