@@ -56,7 +56,6 @@
           </ul>
         </form>
         <ul class="navbar-nav navbar-right">
-          <!-- klo mau nambah menu notifikasi langsung ke websitenya aja (https://getstisla.com/) -->
           <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
             <img alt="image" src="../../assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
             <div class="d-sm-none d-lg-inline-block"><?= $_SESSION['namaPeserta']; ?></div></a>
@@ -82,7 +81,7 @@
           	<ul class="sidebar-menu">
               <li class="menu-header">Menu</li>
               <li class="nav-item dropdown active">
-                <a href="#" class="nav-link has-dropdown"><i class="fas fa-book"></i><span>Pendatar</span></a>
+                <a href="#" class="nav-link has-dropdown"><i class="fas fa-book"></i><span>Pendaftar</span></a>
                 <ul class="dropdown-menu">
                   <li><a class="nav-link" href="daftarSiswa.php">Data Siswa</a></li>
                   <li class="active"><a class="nav-link" href="daftarOrtu.php">Data Orang Tua</a></li>

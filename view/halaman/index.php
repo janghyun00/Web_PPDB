@@ -54,7 +54,7 @@
               </div>
               <div class="d-flex site-info align-items-center">
                 <span class="block-icon mr-3"><span class="icon-clock-o"></span></span>
-                <span>Senin - Kamis 7:00AM - 12:00PM <br>Sabtu 7:00AM - 12:00AM <br> Minggu Tutup</span>
+                <span>Senin - Kamis 7:00AM - 12:00PM <br> Jum'at 7:00AM - 11:00AM <br> Sabtu 7:00AM - 12:00AM <br> Minggu Tutup</span>
               </div>
               
             </div>
@@ -75,9 +75,9 @@
               </nav>
 
               <div class="top-social ml-auto">
-                <a href="login.php"><span class="text-success">Login Peserta</span></a>
-                <a href="daftarSiswa.php"><span class="text-teal">Daftar Peserta</span></a> | 
-                <a href="../login"><span class="text-yellow">Login Guru</span></a>
+                <a href="login.php"><span class="text-success"><Strong>Login Peserta</Strong></span></a>
+                <a href="daftarSiswa.php"><span class="text-teal"><Strong>Daftar Peserta</Strong></span></a> | 
+                <a href="../login"><span class="text-yellow"><Strong>Login Guru</Strong></span></a>
               </div>
           </div>
         </div>
