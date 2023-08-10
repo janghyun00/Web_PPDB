@@ -144,21 +144,6 @@
     </div>
     
 
-    
-
-
-    <div class="site-section py-5 bg-teal">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-12 d-flex">
-          <h2 class="text-white m-0">Pendaftaran Peserta Didik Baru</h2>
-          <a href="daftarSiswa.php" class="btn btn-danger btn-custom-1 py-3 px-5 ml-auto">Daftar!</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-
     <footer class="site-footer" style="padding: 20px 0 5px 0">
       <div class="container">
         <p class="text-center"><a>SDN 3 Purbalingga Lor</a> </p>
