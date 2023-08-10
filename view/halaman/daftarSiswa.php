@@ -1,8 +1,8 @@
 <!-- Header -->
 <?php
 	session_start();
-	$title = "Pendaftaran Peserta Didik Baru"; // Title
-	// require("../template/header.php"); // include header
+	$title = "Pendaftaran Peserta Didik Baru"; // Judulnya
+	// require("../template/header.php"); // include headernya
 ?>
 <!DOCTYPE html>
 <html lang="en">
